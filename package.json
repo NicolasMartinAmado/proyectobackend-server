@@ -1,0 +1,53 @@
+{
+  "devDependencies": {
+    "prettier": "3.0.3"
+  },
+  "name": "curso-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "node src/test/productRouter.test.js",
+    "start": "nodemon src/server.js --mode production",
+    "run": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@stripe/react-stripe-js": "^2.7.0",
+    "@stripe/stripe-js": "^3.3.0",
+    "bcrypt": "^5.1.1",
+    "chai": "^5.1.0",
+    "chai-http": "^4.4.0",
+    "commander": "^12.0.0",
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cookies": "^0.9.1",
+    "cors": "^2.8.5",
+    "dao": "^0.0.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "express-session": "^1.18.0",
+    "handlebars-helpers": "^0.10.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.3",
+    "mongoose-paginate-v2": "^1.8.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.13",
+    "passport": "^0.7.0",
+    "passport-github2": "^0.1.12",
+    "passport-jwt": "^4.0.1",
+    "socket.io": "^4.7.2",
+    "stripe": "^15.5.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "validator": "^13.11.0",
+    "vite": "^5.1.5",
+    "winston": "^3.13.0"
+  }
+}

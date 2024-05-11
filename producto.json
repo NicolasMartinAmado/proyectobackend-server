@@ -1,0 +1,72 @@
+[
+  {
+    "id": 2,
+    "title": "Lamborghini",
+    "description": "Aventador",
+    "price": 9000000,
+    "thumbnail": "../",
+    "code": 5,
+    "stock": 32,
+    "category": "vehicles",
+    "status": true
+  },
+  {
+    "id": 4,
+    "title": "Lamborghini",
+    "description": "Spider",
+    "price": 10000000,
+    "thumbnail": "../",
+    "code": 3,
+    "stock": 2,
+    "category": "vehicles",
+    "status": true
+  },
+  {
+    "id": 5,
+    "title": "Peugeot",
+    "description": "RCZ",
+    "price": 900000,
+    "thumbnail": "../",
+    "code": 5651,
+    "stock": 4,
+    "category": "vehicles",
+    "status": true
+  },
+  {
+    "id": 7,
+    "title": "Mercedes Benz",
+    "description": "sprinter",
+    "price": 6050000,
+    "thumbnail": "../",
+    "code": 6,
+    "stock": 20,
+    "category": "vehicles",
+    "status": true
+  },
+  {
+    "id": 8,
+    "title": "Audi",
+    "description": "TT",
+    "price": 78500000,
+    "thumbnail": "../",
+    "code": 45,
+    "stock": 6,
+    "category": "vehicles",
+    "status": true
+  },
+  {
+    "id": 9,
+    "title": "BMW",
+    "description": "Duster 12",
+    "price": 450000,
+    "thumbnail": "../",
+    "code": 1,
+    "stock": 54,
+    "category": "vehicles",
+    "status": true
+  },
+  {
+    "id": 7,
+    "code": 72.97001109049455
+  }
+]

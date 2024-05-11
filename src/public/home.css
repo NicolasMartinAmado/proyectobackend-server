@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    font-weight: bolder;
+    color: blueviolet;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("assets/img/jñikñjklñkjlñj.jpg");
+}
+h2{
+    color: white;
+    font-weight: bolder;
+}
+.i p{
+    color: white;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 650px;
+   
+   & input{
+    text-align: center;
+    
+
+   }
+    
+}
+.inputdiv{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+#mensajes{
+    font-weight: bolder;
+    padding: 40px;
+}

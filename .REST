@@ -1,0 +1,44 @@
+GET http://localhost:4000/api/products
+
+###
+GET http://localhost:4000/api/products/1
+###
+POST http://localhost:8080/api/products/
+
+Content-Type: application/json
+{       "title":"algo prueba",
+                "description":"algo prueba",
+                "price":4564561236,
+                "thumbnail":"algo ",
+                "code":45456456,
+                "stock":2,
+                "status":true,
+                "category":"algo ",
+                "owner":"algo ", 
+}
+###
+
+POST http://localhost:8080/api/users
+
+Content-Type: application/json
+
+
+{
+    "first_name": "PEPE",
+    "last_name": "jorge",
+    "email": "niki@gmail.com"
+}
+
+###
+
+
+###
+POST http://localhost:8080/api/sessions/register
+
+###
+PUT  http://localhost:4000/api/products/11
+
+###
+DELETE http://localhost:8080/api/products/4
+
+
