@@ -18,7 +18,7 @@ const eq = handlebarsHelpers.eq;
 
 const app = express();
 const port = 8080
-const mongo = configObject.mongo_uri
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/public'));
@@ -29,7 +29,7 @@ app.use(cors({
 }))
 app.use(session({ 
   store: mongoStore.create({
-    mongoUrl: mongo, 
+    mongoUrl: configObject.mongo_uri, 
     mongoOptions: {
         useNewUrlParser: true,
         useUnifiedTopology: true,
