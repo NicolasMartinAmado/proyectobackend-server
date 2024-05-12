@@ -1,5 +1,5 @@
 const { Router } = require('express')
-const { configObject } = require('../config/config')
+const { configObject } = require('../config/config.js')
 const stripe = require('stripe')(configObject.stripe_secret_key)
 
 const router = Router()

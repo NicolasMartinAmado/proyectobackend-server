@@ -1,7 +1,7 @@
 
 const { Router } = require('express')
-const ProductsController = require('../controllers/products.controllers')
-const { isAdminOrPremium } = require('../middlewars/roleverification')
+const ProductsController = require('../controllers/products.controllers.js')
+const { isAdminOrPremium } = require('../middlewars/roleverification.js')
 
 const router = Router()
 const {

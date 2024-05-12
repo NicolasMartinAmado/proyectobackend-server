@@ -1,11 +1,11 @@
 const { Router } = require('express')
 const passport = require('passport')
-const { passportCall } = require('../passport-jwt/passportCall.Middleware')
-const { authorization } = require('../passport-jwt/authorization')
-const SessionController = require('../controllers/session.controllers')
-const { isAuthenticated } = require('../middlewars/auth.middleware')
-const { upload, uploadFields } = require('../utils/multer')
-const { isAdmin } = require('../middlewars/roleverification')
+const { passportCall } = require('../passport-jwt/passportCall.Middleware.js')
+const { authorization } = require('../passport-jwt/authorization.js')
+const SessionController = require('../controllers/session.controllers.js')
+const { isAuthenticated } = require('../middlewars/auth.middleware.js')
+const { upload, uploadFields } = require('../utils/multer.js')
+const { isAdmin } = require('../middlewars/roleverification.js')
 
 const router = Router()
 

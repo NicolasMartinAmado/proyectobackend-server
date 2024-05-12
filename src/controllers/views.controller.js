@@ -1,8 +1,8 @@
 
-const { productService, userService, cartService } = require('../repositories/service')
-const { logger } = require('../utils/logger')
-const { sendPasswordResetEmail, verifyResetToken } = require('../utils/ressetpassword')
-const { createHash, isValidPassword } = require('../utils/hashPassword')
+const { productService, userService, cartService } = require('../repositories/service.js')
+const { logger } = require('../utils/logger.js')
+const { sendPasswordResetEmail, verifyResetToken } = require('../utils/ressetpassword.js')
+const { createHash, isValidPassword } = require('../utils/hashPassword.js')
 
 
 

@@ -1,10 +1,10 @@
 
-const { productService, userService } = require('../repositories/service')
-const customError = require('../services/errors/customError')
-const { EErrors } = require('../services/errors/enum')
-const { generateProductErrorInfo } = require('../services/errors/generateErrorInfo')
-const { logger } = require('../utils/logger')
-const { sendEmail } = require('../utils/sendEmail')
+const { productService, userService } = require('../repositories/service.js')
+const customError = require('../services/errors/customError.js')
+const { EErrors } = require('../services/errors/enum.js')
+const { generateProductErrorInfo } = require('../services/errors/generateErrorInfo.js')
+const { logger } = require('../utils/logger.js')
+const { sendEmail } = require('../utils/sendEmail.js')
 
 
 class ProdcutsController {

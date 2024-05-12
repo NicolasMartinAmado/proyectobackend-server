@@ -1,5 +1,5 @@
-const { messageService } = require('../repositories/service')
-const { logger } = require('../utils/logger')
+const { messageService } = require('../repositories/service.js')
+const { logger } = require('../utils/logger.js')
 
 class messageController {
     constructor(){

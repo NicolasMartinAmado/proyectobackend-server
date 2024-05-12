@@ -1,12 +1,12 @@
-const { createHash, isValidPassword } = require('../utils/hashPassword')
-const { generateToken } = require('../utils/createToken')
-const { cartService, userService } = require('../repositories/service')
-const { logger } = require('../utils/logger')
+const { createHash, isValidPassword } = require('../utils/hashPassword.js')
+const { generateToken } = require('../utils/createtoken.js')
+const { cartService, userService } = require('../repositories/service.js')
+const { logger } = require('../utils/logger.js')
 const multer = require('multer')
-const { upload } = require('../utils/multer')
-const { sendEmail } = require('../utils/sendEmail')
+const { upload } = require('../utils/multer.js')
+const { sendEmail } = require('../utils/sendEmail.js')
 const jwt = require('jsonwebtoken')
-const { jwt_secret_key } = require('../config/config')
+const { jwt_secret_key } = require('../config/config.js')
 
 
 

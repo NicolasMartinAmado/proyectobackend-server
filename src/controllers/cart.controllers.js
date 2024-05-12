@@ -1,11 +1,11 @@
 
 const mongoose = require('mongoose')
-const { cartService, userService, productService } = require('../repositories/service')
-const { ticketModel } = require('../models/tickets.model')
-const customError = require('../services/errors/customError')
-const { generateCartErrorInfo, generateCartRemoveErrorInfo } = require('../services/errors/generateErrorInfo')
-const { EErrors } = require('../services/errors/enum')
-const { logger } = require('../utils/logger')
+const { cartService, userService, productService } = require('../repositories/service.js')
+const { ticketModel } = require('../models/tickets.model.js')
+const customError = require('../services/errors/customError.js')
+const { generateCartErrorInfo, generateCartRemoveErrorInfo } = require('../services/errors/generateErrorInfo.js')
+const { EErrors } = require('../services/errors/enum.js')
+const { logger } = require('../utils/logger.js')
 
 class CartController {
     constructor(){
