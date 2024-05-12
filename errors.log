@@ -389,3 +389,4 @@ error: Error loading cart: ENOENT: no such file or directory, open 'C:\Users\Nix
 error: Error loading cart: Unexpected end of JSON input {"stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at CartManager.loadCart (C:\\Users\\Nixon\\Desktop\\Curso BACKEND\\src\\daos\\file\\cartManagerFile.js:14:28)"}
 error: undefined
 error: undefined
+error: Error during user login: Cannot read properties of null (reading 'email') {"stack":"TypeError: Cannot read properties of null (reading 'email')\n    at login (C:\\Users\\Nixon\\Desktop\\server\\src\\controllers\\session.controllers.js:101:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}

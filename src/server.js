@@ -13,7 +13,7 @@ const swaggerJSDoc = require('swagger-jsdoc');
 const swaggerUiExpress = require('swagger-ui-express');
 const { initializePassport } = require('./config/passport.config.js');
 const { model } = require('mongoose');
-const handlebarsHelpers = require('handlebars-helpers')();
+const handlebarsHelpers = require('handlebars-helpers');
 const eq = handlebarsHelpers.eq;
 
 const app = express();
