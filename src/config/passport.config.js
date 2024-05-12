@@ -7,7 +7,7 @@ exports.initializePassport = () => {
 
     passport.use('github', new GithubStrategy({
         clientID: ' Iv1.822ad80929b4bf57',
-        clientSecret: '836cccf764831118a11d5251db34decb0ed94c59',
+        clientSecret: '7d33681c19f8eccf0901734cf58bad919a9cd5a5',
         callbackURL: 'http://localhost:8080/api/sessions/githubcallback'
     }, async (accesToken, refreshToken, profile, done)=>{
         try{

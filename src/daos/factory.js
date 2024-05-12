@@ -17,7 +17,7 @@ switch (configObject.persistence) {
         const ProductDaoMongo = require('./mongo/productDaoMongo')
         ProductDao = ProductDaoMongo
 
-        const CartDaoMongo = require('./mongo/cartDaoMongo')
+        const CartDaoMongo = require('./mongo/cartdaomongo')
         CartDao = CartDaoMongo
 
         const MessageDaoMongo = require('./mongo/messageDaoMongo')
