@@ -49,7 +49,7 @@ router.post('/:uid/documents', uploadFields, uploadsMulter)
 
 router.get('/:uid/upload-files', uploadsMulterView)
 
-router.get('/users', isAdmin , getAllUsers)
+router.get('/users',getAllUsers)
 
 router.delete('/', isAdmin, deleteInactiveUsers)
 
