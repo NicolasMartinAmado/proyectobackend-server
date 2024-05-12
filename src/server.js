@@ -6,7 +6,7 @@ const cookieParser = require('cookie-parser');
 const mongoStore = require('connect-mongo');
 const passport = require('passport');
 const { addLogger, logger } = require('./utils/logger.js');
-const { connectDb } = require('./config/config.js');
+const { connectDb, configObject } = require('./config/config.js');
 const cors = require('cors');
 const appRouter = require('./routes/general.router.js');
 const swaggerJSDoc = require('swagger-jsdoc');
@@ -18,7 +18,7 @@ const eq = handlebarsHelpers.eq;
 
 const app = express();
 const port = 8080
-
+const mongo = configObject.mongo_uri
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/public'));
@@ -27,9 +27,9 @@ app.use(cors({
   origin: 'http://localhost:5173',
   credentials: true
 }))
-app.use(session({
+app.use(session({ 
   store: mongoStore.create({
-    mongoUrl: process.env.MONGO_URI, 
+    mongoUrl: mongo, 
     mongoOptions: {
         useNewUrlParser: true,
         useUnifiedTopology: true,

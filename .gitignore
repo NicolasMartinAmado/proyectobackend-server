@@ -1,4 +1,4 @@
 package.json
 src/
-.env
+.env/
 node_modules
